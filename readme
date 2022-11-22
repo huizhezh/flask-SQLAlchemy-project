@@ -1,0 +1,11 @@
+create a new folder
+python3 -m venv .venv
+source .venv/bin/activate
+pip3 install flask
+create app.py
+flask run
+
+
+if you want to run application name not app.py
+$ export FLASK_APP=simple
+$ flask run
